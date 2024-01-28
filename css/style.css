@@ -1,0 +1,53 @@
+.the-body {
+    background-color: black;
+    color: white;
+}
+
+/* .main-nav{
+ display: none !important;
+} */
+
+.outer-nav img {
+    width: 47px;
+}
+
+i {
+    cursor: pointer;
+}
+
+.meal-layer {
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    background-color: rgba(240, 248, 255, 0.681);
+    transition: 0.5s;
+}
+
+.meal:hover .meal-layer {
+    top: 0;
+    transition: 0.5s;
+}
+
+.nav-bar {
+    z-index: 99;
+    padding-top: 20px;
+    top: 0%;
+    bottom: 0%;
+    /* height: 105%; */
+    /* min-height: 100%; */
+}
+
+.main-nav {
+    background-color: black;
+}
+
+.search-page .search-form {
+    height: 45px;
+    color: gainsboro;
+}
+
+.contact-us .search-form {
+    height: 45px;
+    background-color: whitesmoke !important;
+    color: rgb(95, 94, 94);
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="Images/logo.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="the-body">
+
+    <div class="nav-bar position-fixed h-100 d-flex">
+        <div class="main-nav h-100 d-flex flex-column justify-content-between p-4">
+            <div class="nav-links">
+                <ul class="list-unstyled overflow-hidden">
+                    <li class="py-2 position-relative" onclick="openSearchPage()"><a href=""
+                            class="text-decoration-none text-white">Search</a></li>
+                    <li class="py-2 position-relative"><a href="" class="text-decoration-none text-white">Categories
+                        </a></li>
+                    <li class="py-2 position-relative"><a href="" class="text-decoration-none text-white">Area </a></li>
+                    <li class="py-2 position-relative"><a href=""
+                            class="text-decoration-none text-white">Ingredients</a></li>
+                    <li class="py-2 position-relative"><a href="" class="text-decoration-none text-white">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <div class="nav-footer-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div>
+                    <div class="nav-footer-bottom">
+                        <p>Copyright Â© 2019 All Rights
+                            <br> Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="outer-nav h-100 d-flex flex-column justify-content-between bg-white text-center px-2 py-4">
+            <img src="Images/logo.png" alt="">
+
+            <i class="fa-solid fa-align-justify text-black fa-2x icon-change-x"></i>
+            <i class="fa-solid fa-x"></i>
+
+            <div class="text-black">
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="homePage">
+        <div class="row py-5 g-4 px-1" id="mealDetails">
+        </div>
+    </div>
+
+    <div class="search-page" id="searchPage">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-6">
+                    <input class="search-form bg-transparent w-100 px-3 rounded-2" type="text"
+                        placeholder="Search By Name">
+                </div>
+
+                <div class="col-md-6">
+                    <input class="search-form bg-transparent w-100 px-3 rounded-2" type="text"
+                        placeholder="Search By First Litter">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us d-flex justify-content-center align-items-center">
+        <div class="container w-75 text-center">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <input class="search-form bg-transparent w-100 px-3 rounded-2" type="text"
+                        placeholder="Enter Your Name">
+                </div>
+
+                <div class="col-md-6">
+                    <input class="search-form bg-transparent w-100 px-3 rounded-2" type="email"
+                        placeholder="Enter Your Email">
+                </div>
+
+                <div class="col-md-6">
+                    <input class="search-form bg-transparent w-100 px-3 rounded-2" type="text"
+                        placeholder="Enter Your Phone">
+                </div>
+
+                <div class="col-md-6">
+                    <input class="search-form bg-transparent w-100 px-3 rounded-2" type="number"
+                        placeholder="Enter Your Age">
+                </div>
+
+                <div class="col-md-6">
+                    <input class="search-form bg-transparent w-100 px-3 rounded-2" type="password"
+                        placeholder="Enter Your Password">
+                </div>
+
+                <div class="col-md-6">
+                    <input class="search-form bg-transparent w-100 px-3 rounded-2" type="password"
+                        placeholder="Repassword">
+                </div>
+            </div>
+            <button class="btn btn-outline-danger mt-4">Submit</button>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
